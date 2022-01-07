@@ -1,0 +1,58 @@
+//- index.pug
+doctype html
+html
+    head
+    title My dance academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/img/logo.png")
+                | JDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Services]
+            li #[a(href="/") Contact Us]
+
+    section#introSection
+        div Welcome to our dance academy
+        div.small Eat Sleep Dance Repeat  
+
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Dance perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/card3.png")
+                    div.card-content
+                        p This is the best dance academy in BD   
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/img/card.png")
+                    div.card-content
+                        p This is the best dance academy in BD 
+        div.card
+            h3 Expert teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/card2.png")
+                    div.card-content
+                        p This is the best dance academy in BD  
+
+    section#sponsersSection
+        h2 Our Sponsers
+        div#sponsers
+            img(src="static/img/google.png", alt="Sponser images", class='spImage')
+            img(src="static/img/apple.png", alt="Sponser images", class='spImage')
+            img(src="static/img/microsoft.png", alt="Sponser images", class='spImage')
+
+    footer#footer
+        | Copyright © 2021 JeremyAcademy.com | All Rights Reserved             
+    script
+      include ../static/index.js

@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    background-color: #1c071b;
+    padding: 28px 3px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 10px 22px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+#navbar li a:hover{
+    background-color: rgb(66, 62, 62);
+    color: rgb(49, 29, 233);
+    border-radius: 4px;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 14px;
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+#logo img{
+    height: 45px;
+    filter: invert(1);
+}
+
+#introSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: rgb(0, 255, 115);
+    height: 593px;
+    background-color: red;
+    background: center/cover no-repeat url(/static/bg1.jpg);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#introSection .small{
+    font-size: 35px;
+    padding: 5px;
+}
+
+#missionSection{
+    height: 378px;
+    margin: auto;
+    background-color: blanchedalmond;
+}
+
+#missionSection h2{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 45px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#missionSection .card {
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 30%;
+    margin: 23px 22px;
+    height: 71%;
+    display: inline-block;
+    background-color: rgb(172, 166, 166);
+}
+
+#missionSection .card h3{
+    text-align: center;
+    margin: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-img{
+    height: 150px;
+    padding: 0px 14px;
+    margin: 3px 84px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 0px 20px;
+}
+
+.card-content p{
+    font-size: 19px;
+}
+
+#sponsersSection{
+    height: 300px;
+    background-color: rgb(214, 203, 203);
+    color: rgb(0, 0, 0);
+}
+
+
+#sponsersSection h2{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 45px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+div#sponsers{
+    height: 120px;
+    max-width: 1000px;
+    margin: auto
+}
+
+.spImage{
+    height: 139%;
+    margin: 19px 58px;
+}
+
+#footer{
+    display: flex;
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+}
